@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Matthias-Elite" id="0" name="CommunicationComponentSpec" package="com.bytecloud.packetManager" tests="2" time="1.831" timestamp="2014-04-04T10:37:32">
+      <properties />
+
+      <testcase classname="com.bytecloud.packetManager.CommunicationComponentSpec" name="name constraint nullable false" time="1.298" />
+
+      <testcase classname="com.bytecloud.packetManager.CommunicationComponentSpec" name="name constraint blank false" time="0.074" />
+
+      <system-out><![CDATA[--Output from name constraint nullable false--
+--Output from name constraint blank false--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from name constraint nullable false--
+--Output from name constraint blank false--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="5" failures="0" hostname="Matthias-Elite" id="1" name="FieldSpec" package="com.bytecloud.packetManager" tests="5" time="28.336" timestamp="2014-04-04T10:37:35">
+      <properties />
+
+      <testcase classname="com.bytecloud.packetManager.FieldSpec" name="name constraint nullable false" time="0.103">
+          <error message="Cannot get property &apos;length&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;length&apos; on null object
+	at com.bytecloud.packetManager.Field._clinit__closure1_closure2(Field.groovy:18)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.validation.ValidatorConstraint.processValidate(ValidatorConstraint.java:85)
+	at org.codehaus.groovy.grails.validation.AbstractConstraint.validate(AbstractConstraint.java:107)
+	at org.codehaus.groovy.grails.validation.ConstrainedProperty.validate(ConstrainedProperty.java:960)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validatePropertyWithConstraint(GrailsDomainClassValidator.java:209)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validate(GrailsDomainClassValidator.java:79)
+	at org.grails.datastore.gorm.GormValidationApi.doValidate(GormValidationApi.groovy:64)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.grails.datastore.gorm.GormValidationApi.validate(GormValidationApi.groovy:145)
+	at com.bytecloud.packetManager.FieldSpec.name constraint nullable false(FieldSpec.groovy:27)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.bytecloud.packetManager.FieldSpec" name="name constraint blank false" time="0.052">
+          <error message="Cannot get property &apos;length&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;length&apos; on null object
+	at com.bytecloud.packetManager.Field._clinit__closure1_closure2(Field.groovy:18)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.validation.ValidatorConstraint.processValidate(ValidatorConstraint.java:85)
+	at org.codehaus.groovy.grails.validation.AbstractConstraint.validate(AbstractConstraint.java:107)
+	at org.codehaus.groovy.grails.validation.ConstrainedProperty.validate(ConstrainedProperty.java:960)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validatePropertyWithConstraint(GrailsDomainClassValidator.java:209)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validate(GrailsDomainClassValidator.java:79)
+	at org.grails.datastore.gorm.GormValidationApi.doValidate(GormValidationApi.groovy:64)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.grails.datastore.gorm.GormValidationApi.validate(GormValidationApi.groovy:145)
+	at com.bytecloud.packetManager.FieldSpec.name constraint blank false(FieldSpec.groovy:46)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.bytecloud.packetManager.FieldSpec" name="type constraint nullable false" time="0.039">
+          <error message="Cannot get property &apos;length&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;length&apos; on null object
+	at com.bytecloud.packetManager.Field._clinit__closure1_closure2(Field.groovy:18)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.validation.ValidatorConstraint.processValidate(ValidatorConstraint.java:85)
+	at org.codehaus.groovy.grails.validation.AbstractConstraint.validate(AbstractConstraint.java:107)
+	at org.codehaus.groovy.grails.validation.ConstrainedProperty.validate(ConstrainedProperty.java:960)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validatePropertyWithConstraint(GrailsDomainClassValidator.java:209)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validate(GrailsDomainClassValidator.java:79)
+	at org.grails.datastore.gorm.GormValidationApi.doValidate(GormValidationApi.groovy:64)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.grails.datastore.gorm.GormValidationApi.validate(GormValidationApi.groovy:145)
+	at com.bytecloud.packetManager.FieldSpec.type constraint nullable false(FieldSpec.groovy:65)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.bytecloud.packetManager.FieldSpec" name="sortKey constraint min 0" time="0.057">
+          <error message="Cannot get property &apos;length&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;length&apos; on null object
+	at com.bytecloud.packetManager.Field._clinit__closure1_closure2(Field.groovy:18)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.validation.ValidatorConstraint.processValidate(ValidatorConstraint.java:85)
+	at org.codehaus.groovy.grails.validation.AbstractConstraint.validate(AbstractConstraint.java:107)
+	at org.codehaus.groovy.grails.validation.ConstrainedProperty.validate(ConstrainedProperty.java:960)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validatePropertyWithConstraint(GrailsDomainClassValidator.java:209)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validate(GrailsDomainClassValidator.java:79)
+	at org.grails.datastore.gorm.GormValidationApi.doValidate(GormValidationApi.groovy:64)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.grails.datastore.gorm.GormValidationApi.validate(GormValidationApi.groovy:145)
+	at com.bytecloud.packetManager.FieldSpec.sortKey constraint min 0(FieldSpec.groovy:84)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.bytecloud.packetManager.FieldSpec" name="arrayFields constraint validator" time="28.078">
+          <error message="Exception evaluating property &apos;length&apos; for java.util.LinkedHashSet, Reason: groovy.lang.MissingPropertyException: No such property: length for class: com.bytecloud.packetManager.Field" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: Exception evaluating property &apos;length&apos; for java.util.LinkedHashSet, Reason: groovy.lang.MissingPropertyException: No such property: length for class: com.bytecloud.packetManager.Field
+	at com.bytecloud.packetManager.Field._clinit__closure1_closure2(Field.groovy:18)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.validation.ValidatorConstraint.processValidate(ValidatorConstraint.java:85)
+	at org.codehaus.groovy.grails.validation.AbstractConstraint.validate(AbstractConstraint.java:107)
+	at org.codehaus.groovy.grails.validation.ConstrainedProperty.validate(ConstrainedProperty.java:960)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validatePropertyWithConstraint(GrailsDomainClassValidator.java:209)
+	at org.codehaus.groovy.grails.validation.GrailsDomainClassValidator.validate(GrailsDomainClassValidator.java:79)
+	at org.grails.datastore.gorm.GormValidationApi.doValidate(GormValidationApi.groovy:64)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.grails.datastore.gorm.GormValidationApi.validate(GormValidationApi.groovy:145)
+	at com.bytecloud.packetManager.FieldSpec.arrayFields constraint validator(FieldSpec.groovy:104)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from name constraint nullable false--
+--Output from name constraint blank false--
+--Output from type constraint nullable false--
+--Output from sortKey constraint min 0--
+--Output from arrayFields constraint validator--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from name constraint nullable false--
+--Output from name constraint blank false--
+--Output from type constraint nullable false--
+--Output from sortKey constraint min 0--
+--Output from arrayFields constraint validator--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Matthias-Elite" id="2" name="PacketGroupSpec" package="com.bytecloud.packetManager" tests="1" time="0.749" timestamp="2014-04-04T10:37:34">
+      <properties />
+
+      <testcase classname="com.bytecloud.packetManager.PacketGroupSpec" name="test name constraints" time="0.257">
+          <failure message="Condition not satisfied:&#xa;&#xa;packetGroup.errors[&quot;name&quot;] != null&#xa;|           |     |        |&#xa;|           |     null     false&#xa;|           org.grails.datastore.mapping.validation.ValidationErrors: 0 errors&#xa;com.bytecloud.packetManager.PacketGroup : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+packetGroup.errors[&quot;name&quot;] != null
+|           |     |        |
+|           |     null     false
+|           org.grails.datastore.mapping.validation.ValidationErrors: 0 errors
+com.bytecloud.packetManager.PacketGroup : (unsaved)
+
+	at com.bytecloud.packetManager.PacketGroupSpec.test name constraints(PacketGroupSpec.groovy:25)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test name constraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test name constraints--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Matthias-Elite" id="3" name="PacketSpec" package="com.bytecloud.packetManager" tests="1" time="0.746" timestamp="2014-04-04T10:37:34">
+      <properties />
+
+      <testcase classname="com.bytecloud.packetManager.PacketSpec" name="test name constraints" time="0.346">
+          <failure message="Condition not satisfied:&#xa;&#xa;packet.errors[&quot;name&quot;] != null&#xa;|      |     |        |&#xa;|      |     null     false&#xa;|      org.grails.datastore.mapping.validation.ValidationErrors: 0 errors&#xa;com.bytecloud.packetManager.Packet : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+packet.errors[&quot;name&quot;] != null
+|      |     |        |
+|      |     null     false
+|      org.grails.datastore.mapping.validation.ValidationErrors: 0 errors
+com.bytecloud.packetManager.Packet : (unsaved)
+
+	at com.bytecloud.packetManager.PacketSpec.test name constraints(PacketSpec.groovy:25)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test name constraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test name constraints--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
